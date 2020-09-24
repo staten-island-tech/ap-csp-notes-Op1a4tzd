@@ -1,0 +1,23 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; //makes font size 10px
+}
+
+h1{
+  font-size: 5rem;//px, rem, 1rem= 10px, 1.3rem= 13px, vw, vh
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 90vh;
+  margin: 3rem auto;
+  align-items: center;
+  background-color: beige;
+}
+.form-text{
+  display:block;
+
+}
